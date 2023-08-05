@@ -73,7 +73,7 @@ cat nmap_out.xml
 <br />
 <br />
 
-Let’s run the scan in GitLab in the YAML configuration file: <br/>
+Let’s run the scan in GitLab in the YML configuration file: <br/>
 ```
 - docker pull hysnsec/nmap
 ```
