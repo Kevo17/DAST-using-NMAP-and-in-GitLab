@@ -73,10 +73,21 @@ cat nmap_out.xml
 <br />
 <br />
 
-
+Let’s run the scan in GitLab in the YAML configuration file: <br/>
+```
+- docker pull hysnsec/nmap
+```
+```
+- docker run --rm -v $(pwd):/tmp hysnsec/nmap hysnsec/nmap <YOUR HOST> -oX /tmp/nmap-output.xml
+```
+<p align="center">
 <img src="https://i.imgur.com/19213TG.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
-<img src="https://i.imgur.com/KrKLZ9I.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+</p>
 
+Here is the result of this job: <br/>
+<p align="center">
+<img src="https://i.imgur.com/KrKLZ9I.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+</p>
 
 <!--
  ```diff
